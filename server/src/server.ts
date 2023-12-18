@@ -23,10 +23,10 @@ app.use(cors())
 app.use(json())
 app.use(urlencoded({ extended: true }))
 
-// @route   /api
-// @desc    home page - welcome message
-// @access  Public 
-app.get('/api/home', (req: Request, res: Response) => res.json({ message: 'Welcome to MFR Rentals!' }))
+// home routes
+app.get('/api', (req: Request, res: Response) => {
+    res.json({ message: 'Welcome to MFR Rentals from the Backend!' })
+})
 
 // start express server and listen for request
 const port: string|number = process.env.PORT || 3000

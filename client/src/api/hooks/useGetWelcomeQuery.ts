@@ -3,9 +3,9 @@ import { axiosClient } from '../axios';
 import { useQuery } from '@tanstack/react-query';
 
 type Message = { message: string }
-export const useGetWelcomeQuery = () => {
+export const useWelcomeMessageQuery = () => {
   return useQuery({
     queryKey: ['home'],
-    queryFn: async () => (await axiosClient.get<Message, AxiosResponse<Message>, Error>('/home')).data
+    queryFn: async () => (await axiosClient.get<Message, AxiosResponse<Message>, Error>('/')).data
   })
 }
