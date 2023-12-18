@@ -1,5 +1,6 @@
-import { Route, Routes } from "react-router-dom";
-import { useGetWelcomeQuery } from "./api/hooks/useGetWelcomeQuery";
+import { FaHome } from 'react-icons/fa';
+import { Route, Routes } from 'react-router-dom';
+import { useGetWelcomeQuery } from './api/hooks/useGetWelcomeQuery';
 
 const App = () => {
   const { data: welcome, isLoading } = useGetWelcomeQuery()
@@ -8,7 +9,7 @@ const App = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<div className=" text-center text-3xl bg-red-500 p-1">{welcome && welcome.message}</div>} />
+      <Route path="/" element={<div className=" text-center text-3xl bg-red-500 p-1"><FaHome size={22} />{welcome && welcome.message}</div>} />
     </Routes>
   )
 }
