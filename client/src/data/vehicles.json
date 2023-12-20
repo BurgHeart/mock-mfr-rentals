@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "vehicleName": "2023 Ram Promaster 2500 High Roof",
+        "vehicleImage": "/rampromaster2023.png",
+        "lastLocation": "40.00555126206312, -105.26332991591222",
+        "vehicleOverview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "hourly": 15,
+        "daily": 125,
+        "monthly": 800
+    },
+    {
+        "id": 2,
+        "vehicleName": "2021 Ram Promaster 2500 High Roof",
+        "vehicleImage": "/rampromaster2021.png",
+        "lastLocation": "38.84391711202811, -105.04254652809836",
+        "vehicleOverview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "hourly": 15,
+        "daily": 125,
+        "monthly": 800
+    },
+    {
+        "id": 3,
+        "vehicleName": "2022 Ram Pickup",
+        "vehicleImage": "/rampickup2022.png",
+        "lastLocation": "39.70523870843906, -104.76261902189907",
+        "vehicleOverview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "hourly": 12,
+        "daily": 89,
+        "monthly": 450
+    },
+    {
+        "id": 4,
+        "vehicleName": "2023 Ford F-650 26' Box",
+        "vehicleImage": "/fordf6502023.png",
+        "lastLocation": "39.78468633984486, -104.90609266163796",
+        "vehicleOverview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "hourly": 30,
+        "daily": 160,
+        "monthly": 800
+    }
+]

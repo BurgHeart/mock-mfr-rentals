@@ -1,0 +1,131 @@
+[
+    {
+        "userId": 1,
+        "admin": true,
+        "firstName": "Nick",
+        "lastName": "Fury",
+        "email": "avengers@email.com",
+        "phone": "1-720-555-5555",
+        "password": "mfa",
+        "address1": "4855 Pontiac St",
+        "address2": null,
+        "city": "Commerce City",
+        "state": "CO",
+        "zipCode": "80022",
+        "businesses": [
+            { "businessId": 1 }
+        ]
+    },
+    {
+        "userId": 2,
+        "admin": true,
+        "firstName": "Tony",
+        "lastName": "Stark",
+        "email": "ironman@email.com",
+        "phone": "1-212-555-5555",
+        "password": "iamironman",
+        "address1": "200 Park Ave",
+        "address2": null,
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10166",
+        "businesses": [
+            { "businessId": 4 },
+            { "businessId": 5 }
+        ]
+    },
+    {
+        "userId": 3,
+        "admin": true,
+        "firstName": "Steve",
+        "lastName": "Rogers",
+        "email": "captain.america@email.com",
+        "phone": "1-718-555-5555",
+        "password": "assemble",
+        "address1": "123 Main St",
+        "address2": "Apt. 1207",
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "80111",
+        "businesses": [
+            { "businessId": 2 }
+        ]
+    },
+    {
+        "userId": 4,
+        "admin": false,
+        "firstName": "Donald",
+        "lastName": "Blake",
+        "email": "thor@email.com",
+        "phone": "1-505-555-5555",
+        "password": "mjolnir",
+        "address1": "30 Tramway Rd NE",
+        "address2": null,
+        "city": "Albuquerque",
+        "state": "NM",
+        "zipCode": "87122",
+        "memberId": 1
+    },
+    {
+        "userId": 5,
+        "admin": false,
+        "firstName": "Bruce",
+        "lastName": "Banner",
+        "email": "hulk@email.com",
+        "phone": "1-303-555-5555",
+        "password": "smash",
+        "address1": "1720 Sherman St",
+        "address2": "Apt. 15-213",
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "80203",
+        "memberId": 1
+    },
+    {
+        "userId": 6,
+        "admin": false,
+        "firstName": "Bruce",
+        "lastName": "Banner",
+        "email": "ironhulk@email.com",
+        "phone": "1-303-555-5555",
+        "password": "bettybrant",
+        "address1": "7711 E Academy Blvd",
+        "address2": null,
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "80230",
+        "memberId": 4
+    },
+    {
+        "userId": 7,
+        "admin": true,
+        "firstName": "Natasha",
+        "lastName": "Romanoff",
+        "email": "black.widow@email.com",
+        "phone": "1-206-555-5555",
+        "password": "hailhydra",
+        "address1": "400 Broad St",
+        "address2": null,
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98109",
+        "businesses": [
+            { "businessId": 3 }
+        ]
+    },
+    {
+        "userId": 8,
+        "admin": false,
+        "firstName": "Clint",
+        "lastName": "Barton",
+        "email": "hawkeye@email.com",
+        "phone": "1-515-555-5555",
+        "password": "wheresmyarrow",
+        "address1": "8th Ave SW",
+        "address2": null,
+        "city": "Waverly",
+        "state": "IA",
+        "zipCode": "50677",
+        "memberId": 1
+    }
+]
