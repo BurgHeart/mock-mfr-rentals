@@ -1,0 +1,21 @@
+[
+    { "categoryId": 1, "categoryName": "Catering" },
+    { "categoryId": 2, "categoryName": "Construction" },
+    { "categoryId": 3, "categoryName": "Delivery Service Partner" },
+    { "categoryId": 4, "categoryName": "Delivery/Package Handling" },
+    { "categoryId": 5, "categoryName": "Eletronics" },
+    { "categoryId": 6, "categoryName": "Events" },
+    { "categoryId": 7, "categoryName": "Florists" },
+    { "categoryId": 8, "categoryName": "Freight" },
+    { "categoryId": 9, "categoryName": "Furniture" },
+    { "categoryId": 10, "categoryName": "Home Staging" },
+    { "categoryId": 11, "categoryName": "Interior Design" },
+    { "categoryId": 12, "categoryName": "Internet Service Provider" },
+    { "categoryId": 13, "categoryName": "Junk Removal" },
+    { "categoryId": 14, "categoryName": "Laundry Services" },
+    { "categoryId": 15, "categoryName": "Moving Company" },
+    { "categoryId": 16, "categoryName": "Roofing Company" },
+    { "categoryId": 17, "categoryName": "Ride Sharing" },
+    { "categoryId": 18, "categoryName": "Storage Unit" },
+    { "categoryId": 19, "categoryName": "Other cType" }
+]
