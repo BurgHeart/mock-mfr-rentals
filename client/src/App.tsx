@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import { Navbar } from "./components/Navbar";
-import { Search } from "./pages/Search";
+import { Search } from "./pages/Search/Search";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Route path='/' element={<Home />}></Route>
         <Route path='/search' element={<Search />}></Route>
       </Routes>
+      <Footer />
     </>
   )
 }

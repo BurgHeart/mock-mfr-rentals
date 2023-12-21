@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "businessName": "Avengers",
+        "businessType": 1,
+        "categoryId": 3,
+        "fleet": [
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 3 }
+        ]
+    },
+    {
+        "id": 2,
+        "businessName": "Howling Commandos",
+        "businessType": 0,
+        "categoryId": 7,
+        "fleet": [
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 3 },
+            { "vehicleId": 3 },
+            { "vehicleId": 3 },
+            { "vehicleId": 4 }
+        ]
+    },
+    {
+        "id": 3,
+        "businessName": "Hydra",
+        "businessType": 0,
+        "categoryId": 15,
+        "fleet": [
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 1 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 2 },
+            { "vehicleId": 3 },
+            { "vehicleId": 3 },
+            { "vehicleId": 4 }
+        ]
+    },
+    {
+        "id": 4,
+        "businessName": "Iron Fleet",
+        "businessType": 1,
+        "categoryId": 3,
+        "fleet": []
+    },
+    {
+        "id": 5,
+        "businessName": "Stark Industries",
+        "businessType": 0,
+        "categoryId": 2,
+        "fleet": [
+            { "vehicleId": 4 }
+        ]
+    }
+]
