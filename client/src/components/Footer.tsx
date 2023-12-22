@@ -1,9 +1,9 @@
 
 export const Footer = () => {
   return (
-    <footer className="w-full flex sm:flex-row flex-col px-12 py-8 text-center sm:text-left sm:gap-8 absolute bg-gray bottom-0">
-      <div>
-        <h1 className="text-120 font-bold">
+    <footer className="w-full flex sm:flex-row flex-col px-12 py-8 text-center sm:text-left sm:gap-8 text-white absolute bg-[#353535] bottom-0">
+      <div className="">
+        <h1 className="text-6xl font-bold">
           MFR
         </h1>
       </div>
@@ -40,6 +40,17 @@ export const Footer = () => {
             </li>
             <li>
               Log In
+            </li>
+          </ul>
+          <ul className="grid md:absolute right-8">
+            <li>
+              Terms and Conditions
+            </li>
+            <li>
+              Privacy Policy
+            </li>
+            <li>
+              © 2023, MFR Rentals
             </li>
           </ul>
         </div>
