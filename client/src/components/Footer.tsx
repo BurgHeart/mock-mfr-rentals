@@ -1,12 +1,10 @@
 
 export const Footer = () => {
   return (
-    <footer className="w-full flex sm:flex-row flex-col px-12 py-8 text-center sm:text-left sm:gap-8 text-white absolute bg-[#353535] bottom-0">
-      <div className="">
-        <h1 className="text-6xl font-bold">
-          MFR
-        </h1>
-      </div>
+    <footer className="w-full flex sm:flex-row flex-col px-12 py-8 text-center sticky top-[100vh] sm:text-left sm:gap-8 text-white bg-[#353535]">
+      <h1 className="text-6xl font-bold">
+        MFR
+      </h1>
       <div>
         <div className="flex flex-col sm:flex-row gap-0 sm:gap-8">
           <ul className="grid">

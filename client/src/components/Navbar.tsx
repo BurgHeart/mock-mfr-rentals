@@ -26,7 +26,7 @@ export const Navbar = () => {
                         <CgMenu style={{ fontSize: '26px' }} />
                     </button>
                 </div>
-                <div className={`flex-col md:flex-row gap-12 absolute top-full left-0 md:p-0 md:w-fit p-5 w-full bg-white shadow-md md:shadow-none text-black ${isOpen ? 'flex h-fit' : 'hidden md:flex'} md:relative md:top-auto md:left-auto transition-all duration-300 ease-in-out`}>
+                <div className={`flex-col md:flex-row gap-12 absolute top-full left-0 md:p-0 md:w-fit p-5 w-full bg-white z-[1000] shadow-md md:shadow-none text-black ${isOpen ? 'flex h-fit' : 'hidden md:flex'} md:relative md:top-auto md:left-auto transition-all duration-300 ease-in-out`}>
                     <Link to="/search" onClick={handleLinkClose}>
                             Find a Vehicle
                     </Link>
@@ -39,7 +39,7 @@ export const Navbar = () => {
                     <li>
                         <SignedOut>
                             <SignInButton mode='modal'>
-                                <FaUser className="flex items-center self-center h-full" />
+                                <FaUser className="flex items-center self-center h-full cursor-pointer" />
                             </SignInButton>
                         </SignedOut>
                         <SignedIn>

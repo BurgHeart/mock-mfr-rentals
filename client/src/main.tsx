@@ -1,4 +1,5 @@
 import './index.css';
+import './globals.css';
 import App from './App.tsx';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
